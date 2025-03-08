@@ -6,6 +6,18 @@
 
 A real-time chat application built with Java, allowing users to connect and communicate seamlessly.
 
+## 📜 Table of Contents
+
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Planned Updates](#-planned-updates)
+- [How to Contribute](#-how-to-contribute)
+- [Bug Reports](#-bug-reports)
+- [License](#-license)
+- [Contact](#-contact)
+
 ## ✨ Features
 
 - **Real-time Messaging** - Instant message delivery between connected users
@@ -24,30 +36,48 @@ A real-time chat application built with Java, allowing users to connect and comm
 
 ## 📋 Installation
 
+### Prerequisites
+
+- Java 11 or higher
+- Git
+
+### Steps
+
 1. Clone the repository
-    ```
+    ```sh
     git clone https://github.com/yourusername/java-chat-app.git
     ```
 
 2. Navigate to the project directory
-    ```
+    ```sh
     cd java-chat-app
     ```
 
 3. Compile the application
-    ```
+    ```sh
     javac *.java
     ```
 
 4. Run the server
-    ```
+    ```sh
     java ChatServer
     ```
 
 5. Run the client application
-    ```
+    ```sh
     java ChatClient
     ```
+
+## 📖 Usage
+
+### Starting the Server
+1. Run the `ChatServer` as mentioned in the installation steps.
+2. The server will start listening for incoming client connections.
+
+### Connecting as a Client
+1. Run the `ChatClient` as mentioned in the installation steps.
+2. Enter the server's IP address and port number to connect.
+3. Start chatting!
 
 ## 🔮 Planned Updates
 
@@ -57,7 +87,7 @@ A real-time chat application built with Java, allowing users to connect and comm
 - 🎨 Customizable themes and user interface
 - 📞 Voice and video call integration
 - 🔐 User Authentication - Secure login and registration system
-  
+
 ## 🤝 How to Contribute
 
 Contributions are always welcome! Here's how you can help:
@@ -67,6 +97,8 @@ Contributions are always welcome! Here's how you can help:
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+For more details, please see our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## 🐛 Bug Reports
 
@@ -78,11 +110,11 @@ Found a bug? Please open an issue with:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
 
-For questions or feedback, please reach out to [your-email@example.com](mailto:kkshah05072005@gmail.com)
+For questions or feedback, please reach out to [kkshah05072005@gmail.com](mailto:kkshah05072005@gmail.com)
 
 ---
 
